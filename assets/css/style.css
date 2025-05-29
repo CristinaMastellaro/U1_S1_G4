@@ -13,7 +13,7 @@ body {
 }
 
 header, footer {
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.63);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.63);
 }
 
 /* HEADER */
@@ -23,7 +23,6 @@ header {
     text-align: center;
     color: white;
     padding-bottom: 1.5em;
-    box-shadow: 8px 8px 10px rgba(0,0,0,0.11);
     font-size: 1em;
     font-weight: 600;
 }
