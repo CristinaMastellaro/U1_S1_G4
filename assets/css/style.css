@@ -1,0 +1,221 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url(../img/sfondo.png);
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+}
+
+.big_section {
+    margin: 1.5em 0;
+}
+
+header, footer {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.63);
+}
+
+/* HEADER */
+header {
+    background: #0094B6;
+    background: linear-gradient(180deg, rgba(0, 148, 182, 1) 0%, rgba(2, 110, 136, 1) 100%);
+    text-align: center;
+    color: white;
+    padding-bottom: 1.5em;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.11);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+header img {
+    width: 250px;
+    margin-top: 1em;
+}
+
+header .h-el {
+    padding: 1em 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0.3em;
+}
+
+/* MAIN */
+main {
+    background-color: white;
+    padding: 1.1em;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.63);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+#first_h1 {
+    font-weight: 550;
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+main p {
+    margin: 1em 0;
+}
+
+#author {
+    color: gray;
+}
+
+.strong {
+    color: purple;
+    font-weight: bold;
+}
+
+main ul {
+    padding: 0 2em;
+    list-style-type: disc;
+}
+
+main kbd {
+    background-color: #e0e1e1;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#second_h1 {
+    margin-top: 1.5em;
+}
+
+#no_space_p {
+    margin-top: 0; 
+}
+
+main ol {
+    padding-left: 2em;
+    list-style-type: decimal; 
+}
+
+.url_online {
+    font-weight: bold;
+    color: #16a4cc;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* TABELLE */
+table {
+    width: 100%;
+    border-bottom: 1px solid #3569c8;
+    margin-bottom: 2em;
+}
+
+table td {
+    padding: 0.6em;
+    text-align: center;
+    border-top: 1px solid #e3e3e3;
+}
+
+table caption {
+    font-weight: 600;
+    font-style: italic;
+}
+
+th {
+    background-color: #3569c8;
+    padding: 1em 0;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* FORM */
+#news {
+    margin: 2em 0;
+    background-color: #e2e2e1;
+    text-align: center;
+}
+
+#news h2 {
+    font-weight: 600;
+    padding-top: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#news p {
+    padding: 0 1em;
+}
+
+#news form {
+    padding: 1em 0;
+    width: 100%
+}
+
+#news form input {
+    padding: 0.3em;
+    border: 0;
+    border-bottom: 1px dotted black;
+}
+
+#news form button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-color: blue;
+    padding: 0.3em;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+#Art_Corr h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#Art_Corr div {
+    background-color: #e2e2e1;
+    padding: 1em;
+    margin: 1em;
+    border: 1px solid gray;
+}
+
+#Art_Corr .category {
+    margin-bottom: 0;
+}
+
+#Art_Corr .develop {
+    margin-top: 0.3em;
+}
+
+#Art_Corr .date {
+    text-align: right;
+    font-size: 0.9em;
+}
+
+/* FOOTER */
+
+footer {
+    background: #065268;
+    background: linear-gradient(180deg, rgba(6, 82, 104, 1) 0%, rgba(46, 54, 56, 1) 100%);;
+    color: white;
+    padding: 1em;
+    /* padding-bottom: 2em; */
+    text-align: center;
+}
+
+footer p {
+    margin: 1em 0;
+}
+
+#mail {
+    color: #fc0fff;
+    font-weight: bold;
+}
