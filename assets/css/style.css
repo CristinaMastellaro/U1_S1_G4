@@ -137,7 +137,6 @@ tbody tr:nth-child(even) {
 #news {
     margin: 2em 0;
     background-color: #e2e2e1;
-    text-align: center;
 }
 
 #news h2 {
@@ -145,19 +144,21 @@ tbody tr:nth-child(even) {
     padding-top: 1em;
     font-size: 1.5em;
     text-transform: uppercase;
+    text-align: center;
 }
 
 #news p {
-    padding: 0 1em;
+    padding: 0.4em 1em;
 }
 
 #news form {
-    padding: 1em 0;
-    width: 100%
+    padding-bottom: 1em;
+    width: 100%;
+    text-align: center;
 }
 
 #news form input {
-    padding: 0.3em;
+    padding: 0.4em;
     border: 0;
     border-bottom: 1px dotted black;
 }
